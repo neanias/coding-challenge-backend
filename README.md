@@ -31,6 +31,6 @@ Please fork this repo and drop your contact person a note once you are done
 - **Performance**: What is the middleware's time and memory complexity?
 
 ### Bonus points
-- **Documentation** - Is the README well written? Are the commit messages clear?
+- **Documentation** - Is the code well documented?
 - **Automated Tests** - Are there any automated frontend tests?
 - **Production-readiness** - Is there proper error handling? Is the code ready to to put into production?
