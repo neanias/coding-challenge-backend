@@ -16,6 +16,13 @@ Ideally, the middleware will need to check for the following:
 
 Also, sometimes the developers are lazy and the swagger spec does not cover all the APIs. In that case, the middleware should just allow the API request to proceed.
 
+### Setup Guide
+1. Clone this repo
+2. `npm i` to install dependencies. Node v7^ preferable
+3. Swagger spec can be found by accessing `http://localhost:7500/api/swagger`
+4. The routes to be protected are found under `/api/account/index.js`
+
+
 ### Submission guide
 Please fork this repo and drop your contact person a note once you are done
 
