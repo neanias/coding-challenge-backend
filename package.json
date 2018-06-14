@@ -15,8 +15,9 @@
     "config": "^1.25.1",
     "express": "^4.14.0",
     "express-jwt": "^5.3.0",
+    "js-yaml": "^3.8.3",
     "ms-logging": "git+https://780dd5f3bc808fc77d0437c47897729a0a15c959:x-oauth-basic@github.com/lacunadream/ms-logging.git#master",
-    "js-yaml": "^3.8.3"
+    "swagger-jsdoc": "^1.9.7"
   },
   "devDependencies": {
     "chai": "^3.5.0",

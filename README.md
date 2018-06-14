@@ -21,7 +21,7 @@ Please fork this repo and drop your contact person a note once you are done
 
 ### How we review
 - **Code quality**: Is the code easy to understand and maintain? Is the coding style consistent with nodejs best practices? Do you demonstrate a good grasp of JavaScript, especially ES6?
-- **Performance**: What is the function's complexity? What is the memory footprint?
+- **Performance**: What is the middleware's time and memory complexity?
 
 ### Bonus points
 - **Documentation** - Is the README well written? Are the commit messages clear?
