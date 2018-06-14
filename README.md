@@ -1,26 +1,29 @@
-# Cohire - Wireframe Microservice Framework 
+# Cohire Coding Challenge (Backennd)
 
-An opinionated microservice framework for quick bootstrapping of code
+### Introduction 
+Welcome! This coding challenge is designed to explore your backend skills. You will have to write a Express middleware function.
 
-## Getting Started
+### The challenge
+The developers have written an API service that contains swagger based documentation which genarates a json list all the routes, request parameters, and request parameter types. However the developers have forgotten to implement any request validation. 
 
-### Prerequisites
+The developers would like you to implement validation middleware that checks all incoming requests to ensure that the appropriate parameters have been supplied. As the swagger specifiction has already been generated, the middleware will consume the specification during runtime and validate the requests accordingly. 
 
-- [Git](https://git-scm.com/)
-- [Node.js](nodejs.org) Node ^6
+Ideally, the middleware will need to check for the following:
 
-### Developing
+1. All required parameters are present
+2. All parameter data types are correct
+3. No extraneous parameters are present
 
-1. Run `npm install` to install server dependencies.
+Also, sometimes the developers are lazy and the swagger spec does not cover all the APIs. In that case, the middleware should just allow the API request to proceed.
 
-2. Run `npm start` to start the development server.
+### Submission guide
+Please fork this repo and drop your contact person a note once you are done
 
-### Testing
+### How we review
+- **Code quality**: Is the code easy to understand and maintain? Is the coding style consistent with nodejs best practices? Do you demonstrate a good grasp of JavaScript, especially ES6?
+- **Performance**: What is the function's complexity? What is the memory footprint?
 
-1. Run `npm test`
-
-### Nuances
-
-- This framework uses babel-register to transpile code into node-friendly code. 
-- It also uses eslint and is extended by the Airbnb plugin. 
-
+### Bonus points
+- **Documentation** - Is the README well written? Are the commit messages clear?
+- **Automated Tests** - Are there any automated frontend tests?
+- **Production-readiness** - Is there proper error handling? Is the code ready to to put into production?
