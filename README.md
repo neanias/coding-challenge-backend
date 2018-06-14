@@ -1,4 +1,4 @@
-# Cohire Coding Challenge (Backennd)
+# Cohire Coding Challenge (Backend)
 
 ### Introduction 
 Welcome! This coding challenge is designed to explore your backend skills. You will have to write a Express middleware function.
